@@ -232,7 +232,7 @@ bool kalibrace()
     rbc().motor(LEFT_MOTOR)->drive(-2*ctverec, power_motor, end_left);
     rbc().motor(RIGHT_MOTOR)->drive(-2*ctverec, power_motor, end_right);
 
-    servo.attach(14); // otestovani serva 
+    servo.attach(13); // otestovani serva 
     servo.write(servo_open); 
     delay(1000);
     servo.write(servo_close); 
